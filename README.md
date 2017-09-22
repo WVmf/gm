@@ -40,6 +40,7 @@ gm('/path/to/my/img.jpg')
 ...
 ```
 
+When using ImageMagick 7 or newer replace `imageMagick: true` with `imageMagick: 'singleCmd'`. This will cause ImageMagick to operate in 'single command' mode, instead of the older multi-command mode (i.e. separate `identify`, `convert`, etc. commands).
 
 ## Basic Usage
 
